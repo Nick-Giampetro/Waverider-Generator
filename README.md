@@ -13,9 +13,9 @@
  
  Theory Guide and User Menu will be uploaded shortly under /doc file
  
- <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/Programme%20Example%20Output%20Image.PNG" alt="Programme Example Output Image" width="400"/> <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/CAE%20Visualization.PNG" alt="CAE Visualization" width="450"/>
+ <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/Programme%20Example%20Output%20Image.PNG" alt="Programme Example Output Image" width="200"/> <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/CAE%20Visualization.PNG" alt="CAE Visualization" width="225"/>
 
 **Left:** Output Wireframe View of Calculated Waverider from Python Programme; **Right:** View in Solidworks After Importing the Output Curves from this Programme
 
- <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/Programme%20Output%20CAE.png" alt="Programme Example Output Image" width="300"/>
+ <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/Programme%20Output%20CAE.png" alt="Programme Example Output Image" width="200"/>
  **Figure:** Example Output Format for CAE Platforms (Solidworks, CATIA...). Specifies a Resolution = 12 Results in 12*2 .txt Files, Each Containing a Traced Streamline that Formed the Lower Surface, Plus 3 Curves Specifing the Leading, Trailing Edge and Lower Surface Baseine
