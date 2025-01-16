@@ -12,3 +12,4 @@
  The program gives outputs of .txt files for modeling in CAD software, enable this function in the output module of main.py
  
  Theory Guide and User Menu will be uploaded shortly under /doc file
+![plot](./blob/main/Images/Programme%20Example%20Output%20Image.PNG)
