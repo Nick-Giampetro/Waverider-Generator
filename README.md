@@ -17,5 +17,3 @@
 
 **Left:** Output Wireframe View of Calculated Waverider from Python Programme; **Right:** View in Solidworks After Importing the Output Curves from this Programme
 
- <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/Programme%20Output%20CAE.png" alt="Programme Example Output Image" width="300"/>
- **Figure:** Example Output Format for CAE Platforms (Solidworks, CATIA...). Specifies a Resolution = 12 Results in 12*2 .txt Files, Each Containing a Traced Streamline that Formed the Lower Surface, Plus 3 Curves Specifing the Leading, Trailing Edge and Lower Surface Baseine
