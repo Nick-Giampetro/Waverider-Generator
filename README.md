@@ -31,6 +31,6 @@ Ma = 8.0, Altitude = 25km, Viscous Flowfield
 
 High pressure zone is firmly constrained at the lower surface
 
- NOTE: There exists negative pressure due to the reference value given to Fluent is below the operating (absolute) pressure. This does not affect the solution for the fields, but only affects the numerical values displayed at post-processing (all numerical values are reduced by a same amount). This minor issue will be fixed when I have time to do a re-computation :)
+ NOTE: There exists negative pressure due to the reference value given to Fluent is below the operating (absolute) pressure. This does not affect the solution for the fields, but only affects the numerical values displayed at post-processing (all pressure values in the field are reduced by a same amount). This minor issue will be fixed when I have time to do a re-computation :)
 
  
