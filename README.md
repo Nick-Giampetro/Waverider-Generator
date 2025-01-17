@@ -1,5 +1,5 @@
 # waverider-generator
-**IMPORTANT: Main Modules are Under /src file**
+**IMPORTANT: Main Modules are Under /src folder**
 
  Outputs a cone-derived waverider from given basic flowfield information and user-defined trailing edge. Main modules including solving Taylor-Maccoll equation and streamline tracing to form the lower surface
 
@@ -11,7 +11,7 @@
 
  The program gives outputs of .txt files for modelling in CAD software, enable this function in the output module of main.py
  
- Theory Guide and User Menu will be uploaded shortly under /doc file
+ Theory Guide and User Menu will be uploaded shortly under /doc folder
  
  <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/Programme%20Example%20Output%20Image.PNG" alt="Programme Example Output Image" width="300"/> <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/CAE%20Visualization.PNG" alt="CAE Visualization" width="350"/>
 
