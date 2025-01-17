@@ -4,6 +4,7 @@ from scipy.optimize import fsolve
 from scipy.integrate import solve_ivp
 from scipy.interpolate import splprep, splev
 
+
 from oblique_shock import Oblique_Shock
 import user_input as UI
 from taylor_maccoll_sol import Taylor_Maccoll

@@ -3,14 +3,14 @@ import numpy as np
 #   Basic Flowfield
 M1 = 5
 gamma = 1.4
-beta = 20
+beta = 26.5651
 beta_rad = np.radians(beta)
 
 #   Define TE constants
 L = 10                                # Max. Length (See User Menu)
 Rs = L * np.tan(np.radians(beta))    # Trailing Edge Parameter (See User Menu)
-R1 = 0.9 * Rs                        # Trailing Edge Parameter (See User Menu)
-W2 = 0.8 * Rs                        # Trailing Edge Parameter (See User Menu)
+R1 = .3 * Rs                        # Trailing Edge Parameter (See User Menu)
+W2 = 0.4 * Rs                        # Trailing Edge Parameter (See User Menu)
 
 #   Resolution
 N = 500                      # Leading Edge Resolution (500 or more is recommended!)
