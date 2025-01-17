@@ -17,3 +17,20 @@
 
 **Left:** Output Wireframe View of Calculated Waverider from Python Programme; **Right:** View in Solidworks After Importing the Output Curves from this Programme
 
+Computational Results From ANSYS Fluent:
+
+Ma = 8.0, Altitude = 25km, Viscous Flowfield
+
+ <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/ANSYS%20Result%206.png" alt="Programme Example Output Image" width="350"/> <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/ANSYS%20Result%207.png" alt="Programme Example Output Image" width="350"/>
+
+ **Figure 1&2:** Pressure Contour Lines
+
+  <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/ANSYS%20Result%202.png" alt="Programme Example Output Image" width="350"/> <img src="https://github.com/ExusiaiVAL/Waverider-Generator/blob/main/Images/ANSYS%20Result%203.png" alt="Programme Example Output Image" width="350"/>
+
+ **Figure 2&3:** Pressure Contour at the Symmetry and the Base Plane
+
+High pressure zone is firmly constrained at the lower surface
+
+ NOTE: There exists negative pressure due to the reference value given to Fluent is below the operating (absolute) pressure. This does not affect the solution for the fields, but only affects the numerical values displayed at post-processing. This minor issue will be fixed when I have time to do a re-computation with the correct reference value :)
+
+ 
