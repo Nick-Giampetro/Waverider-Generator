@@ -3,8 +3,8 @@ import numpy as np
 
 #   Waverider Body Dimensions
 desL = 10   # Length of Body
-W = 10       # Width of Vehicle at the tail end
-H = 10     # Height of Body Over Shock Cone at the rear
+W = 9       # Width of Vehicle at the tail end
+H = 3.5     # Height of Body Over Shock Cone at the rear
 
 
 #   Basic Flowfield
@@ -25,7 +25,7 @@ Rs = L * np.tan(beta_rad)  # Trailing Edge Parameter (See User Menu)
 #R1_multiplier = 0.5
 #W2_multiplier = 0.45
 
-# Body dimension Tunner
+# Body Dimension Tunner
 R1 = Rs-H
 R1_multiplier = R1/Rs
 W2_multiplier = (W/2)/Rs
