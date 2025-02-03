@@ -2,9 +2,9 @@ import numpy as np
 
 
 #   Waverider Body Dimensions
-desL = 3500  # Length of Body (meters)
-W = 2500     # Width of Vehicle at the tail end (meters)
-H = 1200     # Height of Body Over Shock Cone at the rear (meters)
+desL = 3500  # Length of Body
+W = 2500     # Width of Vehicle at the tail end
+H = 1200     # Height of Body Over Shock Cone at the rear
 
 
 #   Basic Flowfield
