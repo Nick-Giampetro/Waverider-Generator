@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import fsolve
 from scipy.integrate import solve_ivp
 from scipy.interpolate import splprep, splev
+import os
 
 from oblique_shock import Oblique_Shock
 import user_input as UI
@@ -67,9 +68,13 @@ class Main:
 
            \  /  CAUTION: Those line will write N_l+N_up+2 number of .txt file to your device
             \/
-        ''' 
-        #self.cae.output_bp(self.a, self.b, self.c, self.Rs, self.L, self.N, self.N_l, self.N_up, Vr_i, V_theta_i)
-        #self.cae.output_lower_surface()
-    
+        '''
+
+        cwd = os.getcwd()
+        os.chdir('CAE')
+        self.cae.output_bp(self.a, self.b, self.c, self.Rs, self.L, self.N, self.N_l, self.N_up, Vr_i, V_theta_i)
+        self.cae.output_lower_surface()
+        os.chdir(cwd)
+
 main = Main()
 main.run()
